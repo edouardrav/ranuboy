@@ -84,6 +84,7 @@ GEM
     bcrypt_pbkdf (1.1.2-arm64-darwin)
     bcrypt_pbkdf (1.1.2-x86_64-darwin)
     bigdecimal (4.0.1)
+    blueprinter (1.2.1)
     bootsnap (1.23.0)
       msgpack (~> 1.2)
     brakeman (8.0.4)
@@ -399,6 +400,7 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
+  blueprinter
   bootsnap
   brakeman
   bundler-audit
